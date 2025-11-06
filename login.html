@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- bootstrsp-->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+        <!-- heading font link-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap"
+            rel="stylesheet">
+        <style>
+            .container{
+                margin-top: 80px;
+                height: 250px;
+                width: 550px;
+                box-shadow: 5px 10px 5px blanchedalmond;
+                
+            }
+            .container:hover{
+                width: 555px;
+                transform:2s;
+            }
+            body{
+                background-image: url("images/login.jpg");
+            }
+            input{
+                border: 2px black solid;
+            }
+            label{
+                font-weight:bold ;
+                color: linear-gradient(rgb(15, 16, 14),rgb(177, 177, 32),pink); 
+            }
+            h1{
+                color: rgb(162, 21, 194);
+                text-align: center;
+                margin-top: 150px;
+                font-size: 55PX;
+                font-family: "Honk", system-ui;
+                    font-optical-sizing: auto;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-variation-settings:
+                    "MORF" 15,
+                    "SHLN" 50;
+            }
+            button{
+                border-radius: 5PX;
+                padding: 3PX;
+                margin-top:15px;
+                width: 65px;
+                color: aliceblue;
+            }
+            button:hover{
+                border-right-width: 67px;
+            }
+            #home{
+                text-decoration: none;
+                
+                margin-left: 50px;
+                
+            }
+            #h{
+                margin-top:20px;
+            }
+            #homeicon{
+                size:25px;
+            }
+            
+            
+            
+            </style>
+
+    </head>
+
+    <body>
+        <div id="h">
+      <a href="index.html" color:white; id="home"><img src="images/homeicon.png" alt="home" height="45px"></a>
+      </div>
+        <h1>
+            Student FullStack Portal
+        </h1>
+
+        <div class="container bg-white  " autocomplete="off" align="center">
+            <form autocomplete="off" class="p-3">
+                <div class="row p-3">
+                    <div class="col-12">
+                        <label>user name</label>
+                        <input type="text" autocomplete="off" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <label>password</label>
+                        <input type="password" autocomplete="new-password" required>
+                    </div>
+                </div>
+                <div class="row m-2">
+                    <div class="col-12">
+                        <button type="reset" class="bg-primary m-2">reset</button>
+                        <button type="submit" class="bg-primary">Login</button><br>
+                        <a href="sinup.html">sin-up</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>

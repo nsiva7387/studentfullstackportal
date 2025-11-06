@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student FullStack Portal</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous"
+  >
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous">
+  </script>
+
+  <!-- Heading Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Honk&display=swap"
+    rel="stylesheet"
+  >
+
+  <style>
+    body {
+      background-image: url("images/login.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+    }
+
+    h1 {
+      color: rgb(162, 21, 194);
+      text-align: center;
+      margin-top: 30px;
+      font-size: 55px;
+      font-family: "Honk", system-ui;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+    }
+
+    .container {
+      margin-top: 20px;
+      height:580px;
+      width: 550px;
+      box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2);
+      border-radius: 10px 10px 10px 10px;
+      padding: 20px;
+      
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+    }
+
+    input {
+      border: 2px solid black;
+      border-radius: 5px;
+      padding: 5px;
+      width: 100%;
+    }
+
+    button {
+      border-radius: 5px;
+      background-color: blue;
+      color: white;
+      margin-top: 5px;
+      width: 90px;
+      border: none;
+      padding: 5px 10px;
+    }
+
+    button:hover {
+      background-color: deepskyblue;
+      color: black;
+    }
+
+    a {
+      text-decoration: none;
+      color: blue;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+    #home{
+                text-decoration: none;
+                
+                margin-left: 50px;
+                
+            }
+            #h{
+                margin-top:10px;
+            }
+            #homeicon{
+                size:25px;
+            }
+            #signup{
+              border: 3px rgb(12, 22, 136) solid;
+              background-color:rgb(38, 82, 225);
+              color: white;
+              text-decoration: none;
+              border-radius: 2px;
+            }
+            
+  </style>
+</head>
+
+<body>
+<div id="h">
+      <a href="index.html" color:white; id="home"><img src="images/homeicon.png" alt="home" height="45px"></a>
+      </div>
+  <h1>Student FullStack Portal</h1>
+
+  <div class="container bg-white text-center" autocomplete="off">
+    <form autocomplete="off">
+      <div class="row ">
+        <div class="col-12">
+          <label>Full Name</label>
+          <input type="text" autocomplete="off" required>
+        </div>
+      </div>
+
+      <div class="row ">
+        <div class="col-12">
+          <label>Email</label>
+          <input type="email" autocomplete="off" required>
+          <button type="submit" class="bg-primary">OTP</button>
+        </div>
+      </div>
+
+      <div class="row ">
+        <div class="col-12">
+          <label>Username</label>
+          <input type="text" autocomplete="off" required>
+        </div>
+      </div>
+
+      <div class="row ">
+        <div class="col-12">
+          <label>Password</label>
+          <input type="password" autocomplete="new-password" required>
+        </div>
+      </div>
+
+      <div class="row ">
+        <div class="col-12">
+          <label>Confirm Password</label>
+          <input type="password" autocomplete="new-password" required>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-12">
+          <button type="reset" class="bg-primary">Reset</button>
+          <a href="courses.html" id="signup">Sign Up</a><br>
+          <a href="login.html">Sign In</a>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
